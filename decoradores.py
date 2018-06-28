@@ -13,13 +13,16 @@ def mi_decorador(funcion):
 @mi_decorador
 def saludo():
 	print("buen dia!")
-
-
-saludo()
-
 @mi_decorador
 def calcular():
 	print("el resultado es: ",10+6)
 
 
+saludo()
+
+
+
 calcular()
+
+
+
